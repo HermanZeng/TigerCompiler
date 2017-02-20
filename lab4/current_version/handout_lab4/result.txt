@@ -1,0 +1,2 @@
+testcases/test16.tig:9.1: illegal type cycle: cycle must contain record, array
+

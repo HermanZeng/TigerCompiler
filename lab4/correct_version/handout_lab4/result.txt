@@ -1,0 +1,2 @@
+testcases/test13.tig:3.5: same type required
+

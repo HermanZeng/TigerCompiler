@@ -1,0 +1,58 @@
+﻿Build started 12/8/2016 7:58:55 PM.
+     1>Project "C:\Users\heming\documents\visual studio 2013\Projects\CompilerLab6a\CompilerLab6a\CompilerLab6a.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         G:\software\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt codegen.c
+         codegen.c
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(104): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(109): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(115): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(134): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(175): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(179): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(197): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(201): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 g:\software\visual studio\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\heming\documents\visual studio 2013\projects\compilerlab6a\compilerlab6a\codegen.c(245): warning C4101: 'assem_string' : unreferenced local variable
+       Link:
+         G:\software\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\heming\documents\visual studio 2013\Projects\CompilerLab6a\Debug\CompilerLab6a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\heming\documents\visual studio 2013\Projects\CompilerLab6a\Debug\CompilerLab6a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\heming\documents\visual studio 2013\Projects\CompilerLab6a\Debug\CompilerLab6a.lib" /MACHINE:X86 Debug\absyn.obj
+         Debug\assem.obj
+         Debug\canon.obj
+         Debug\codegen.obj
+         Debug\env.obj
+         Debug\errormsg.obj
+         Debug\lex.yy.obj
+         Debug\main.obj
+         Debug\parse.obj
+         Debug\prabsyn.obj
+         Debug\printtree.obj
+         Debug\semant.obj
+         Debug\symbol.obj
+         Debug\table.obj
+         Debug\temp.obj
+         Debug\translate.obj
+         Debug\tree.obj
+         Debug\types.obj
+         Debug\util.obj
+         Debug\x86frame.obj
+         Debug\y.tab.obj
+         CompilerLab6a.vcxproj -> C:\Users\heming\documents\visual studio 2013\Projects\CompilerLab6a\Debug\CompilerLab6a.exe
+     1>Done Building Project "C:\Users\heming\documents\visual studio 2013\Projects\CompilerLab6a\CompilerLab6a\CompilerLab6a.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.62
